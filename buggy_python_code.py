@@ -54,8 +54,8 @@ if __name__ == '__main__':
     print("3. Yaml deserialization vulnerability:")
     print("4. Use of assert statements vulnerability:")
     CHOICE = input("Select vulnerability: ")
-    if CHOICE == "1": 
-        NEW_PERSON = Person("Vickie")  
+    if CHOICE == "1":
+        NEW_PERSON = Person("Vickie")
         print_nametag(input("Please format your nametag: "), NEW_PERSON)
     elif CHOICE == "2":
         URLLIB_VERSION = input("Choose version of urllib: ")
